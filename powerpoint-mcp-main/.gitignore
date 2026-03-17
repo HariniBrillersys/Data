@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tool caches
+.ruff_cache/
+.claude/
+.planning/
+
+# PowerPoint lock files
+~$*.pptx
+~$*.potx
+
+# Generated outputs (keep directory structure, ignore contents)
+outputs/*.pptx
+outputs/*.pdf
+outputs/images/
+
+# Template analysis cache
+.template_cache.json
+
+# Temp files
+*.tmp

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["CONTRIBUTING.md"],
+  "agent": {
+    "gsd-planner": { "model": "uptimize-foundry/claude-opus-4-6" },
+    "gsd-plan-checker": { "model": "uptimize-foundry/claude-opus-4-6" },
+    "gsd-phase-researcher": { "model": "uptimize-foundry/claude-opus-4-6" },
+    "gsd-roadmapper": { "model": "uptimize-foundry/claude-opus-4-6" },
+    "gsd-project-researcher": { "model": "uptimize-foundry/claude-opus-4-6" },
+    "gsd-research-synthesizer": { "model": "uptimize-foundry/claude-opus-4-6" },
+    "gsd-codebase-mapper": { "model": "uptimize-foundry/claude-opus-4-6" },
+    "gsd-executor": { "model": "uptimize-foundry/claude-sonnet-4-6" },
+    "gsd-debugger": { "model": "uptimize-foundry/claude-sonnet-4-6" },
+    "gsd-verifier": { "model": "uptimize-foundry/claude-sonnet-4-6" },
+    "gsd-integration-checker": { "model": "uptimize-foundry/claude-sonnet-4-6" },
+    "gsd-set-profile": { "model": "uptimize-foundry/claude-sonnet-4-6" },
+    "gsd-settings": { "model": "uptimize-foundry/claude-sonnet-4-6" },
+    "gsd-set-model": { "model": "uptimize-foundry/claude-sonnet-4-6" }
+  }
+}
